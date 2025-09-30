@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(echo $THRESHOLD)",
+      "Bash(Get-ChildItem Env:THRESHOLD)",
+      "Bash(uvicorn:*)",
+      "Bash(curl:*)",
+      "Bash(taskkill:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

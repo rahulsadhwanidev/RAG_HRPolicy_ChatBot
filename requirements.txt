@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic==2.8.2
+python-multipart
+pypdf
+tiktoken
+openai==1.40.1
+chromadb==0.5.5
+numpy
+boto3
+python-dotenv
+httpx<0.28
