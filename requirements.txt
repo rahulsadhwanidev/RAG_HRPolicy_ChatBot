@@ -7,6 +7,13 @@ tiktoken
 openai==1.40.1
 chromadb==0.5.5
 numpy
-boto3
 python-dotenv
 httpx<0.28
+gunicorn
+
+# Azure dependencies
+azure-storage-blob>=12.19.0
+azure-identity>=1.15.0
+
+# Keep boto3 for backward compatibility (optional)
+boto3
